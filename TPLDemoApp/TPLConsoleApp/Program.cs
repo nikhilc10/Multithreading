@@ -12,10 +12,13 @@ namespace TPLConsoleApp
         static void Main(string[] args)
         {
             // Concurrency using async/await
-            Concurrency.TestFunction();
+            //Concurrency.TestFunction();
 
             // Parallelism using TPL
-            Parallelism.TestFunction();
+            //Parallelism.TestFunction();
+
+            AsyncAwait objAsyncAwait = new AsyncAwait();
+            objAsyncAwait.GetData();
         }
 
         

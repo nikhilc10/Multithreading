@@ -18,7 +18,7 @@ namespace TPLConsoleApp
 
             Console.WriteLine("Enter your name:");
             var str = Console.ReadLine();
-            Console.WriteLine($"Hello {0}", str);
+           // Console.WriteLine($"Hello {0}", str);
             Console.Read();
         }
 
